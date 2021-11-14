@@ -1,0 +1,24 @@
+#div1,#div4,#div7,#div2,#div5,#div8,#div3,#div6,#div9{
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    float:left;
+    font-size:60px;
+    background-color:aqua;
+    text-align:center;
+
+}
+#div1,#div4,#div7{
+    clear:left;
+    margin-left:500px;
+}
+.container{
+    margin-top:100px;
+}
+#head{
+    color:#fff;
+}
+*{
+    background-color:rgb(225, 228, 35);
+
+}

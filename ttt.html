@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ttt.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1  style="text-align:center" id="head">GET READY FOR THE GAME!</h1><hr>
+    <ul class="list">
+          <li>first player's symbol is %</li>
+          <li>second player's symbol is $</li>
+          <li>players has to click on the boxes one after another</li>
+          <li>player who has put his 3 symbols in a row or column or diagonal or crossed,is declared as winner</li>
+    </ul>
+    <div class="container">
+        <div class="d1">
+            <div onclick="load(this)" id="div1"></div>
+            <div onclick="load(this)" id="div2"></div>
+            <div onclick="load(this)" id="div3"></div>
+        </div>
+        <div class="d2">
+            <div onclick="load(this)" id="div4"></div>
+            <div onclick="load(this)" id="div5"></div>
+            <div onclick="load(this)" id="div6"></div>
+        </div>
+        <div class="d3">
+            <div onclick="load(this)" id="div7"></div>
+            <div onclick="load(this)" id="div8"></div>
+            <div onclick="load(this)" id="div9"></div>
+        </div>
+    </div>
+    <script src="ttt.js"></script>
+</body>
+
+</html>
